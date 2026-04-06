@@ -1,144 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - GPAM</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — GPAM</title>
+  <meta name="description" content="GPAM — Grupo de Pesquisa em Aprendizado de Máquina at UNIFESP.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-<header>
-    <div class="container">
-        <div class="topbar">
-            <div class="brand">
-                <img src="images/logo-gpam.svg" alt="GPAM logo" class="logo">
-                <div>
-                    <h1>GPAM</h1>
-                    <p class="subtitle">Machine Learning Research Group</p>
-                </div>
-            </div>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="research.html">Research</a>
-                <a href="people.html">People</a>
-                <a href="projects.html" class="active">Projects</a>
-                <a href="publications.html">Publications</a>
-                <a href="contact.html">Contact</a>
-                <a href="pt/projects.html" class="lang-switch">PT</a>
-            </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/img/logo-gpam.svg" alt="GPAM logo">
+        <div class="brand-text">
+          <small>UNIFESP</small>
+          <span>GPAM</span>
         </div>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="lang-switch" href="pt/projects.html">PT</a></li>
+        </ul>
+      </nav>
     </div>
-</header>
+  </header>
 
-<main class="container">
-    <section class="hero small-hero">
-        <h2>Research Projects</h2>
-        <p>
-            GPAM is involved in funded research projects spanning Automated Machine Learning,
-            data streams, evolutionary computation, neural architecture search, and large-scale
-            collaborative AI initiatives with social and environmental impact.
-        </p>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <div class="card">
+          <div class="breadcrumb">Home / Projects</div>
+          <div class="kicker">Funded and collaborative research</div>
+          <h1>Research projects</h1>
+          <p>
+            GPAM participates in funded projects and large-scale collaborative initiatives in
+            Automated Machine Learning, data streams, evolutionary computation, neural
+            architecture search, and socially impactful Artificial Intelligence.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="section">
-        <div class="card">
-            <h3>AutoML for Data Streams</h3>
-            <p><strong>Period:</strong> 2026 - Present</p>
-            <p><strong>Status:</strong> Ongoing</p>
-            <p><strong>Funding:</strong> São Paulo Research Foundation (FAPESP)</p>
-            <p><strong>Role:</strong> Coordinator</p>
-            <p>
-                This project investigates Automated Machine Learning methods for continuous data streams,
-                focusing on classification under non-stationary environments. It addresses challenges such as
-                concept drift, concept evolution, novelty detection, and the automatic design and tuning of
-                learning pipelines for streaming scenarios, where data must be processed in a single pass and
-                cannot be stored in full.
-            </p>
-        </div>
+      <div class="container timeline">
 
-        <div class="card">
-            <h3>National Institute of Artificial Intelligence for Social Good (IAPROBEM)</h3>
-            <p><strong>Period:</strong> 2025 - Present</p>
-            <p><strong>Status:</strong> Ongoing</p>
-            <p><strong>Role:</strong> Team Member</p>
-            <p>
-                This initiative investigates how Artificial Intelligence can be applied to major national
-                challenges with social impact. The project focuses on AI methods and tools for disaster
-                prevention, environmental protection, health, citizenship, human rights, and social well-being,
-                bringing together researchers from multiple regions of Brazil and from different disciplinary
-                backgrounds.
-            </p>
-        </div>
+        <article class="card">
+          <h3>AutoML for Data Streams</h3>
+          <p><strong>Period:</strong> 2026–Present</p>
+          <p><strong>Status:</strong> Ongoing</p>
+          <p><strong>Funding agency:</strong> FAPESP</p>
+          <p><strong>Role:</strong> Coordinator</p>
+          <p><strong>Summary:</strong> This project investigates Automated Machine Learning methods for continuous data streams, with emphasis on classification in non-stationary environments. It addresses challenges such as concept drift, concept evolution, novelty detection, and the automatic design and configuration of learning methods for streaming scenarios, where data must be processed in a single pass and cannot be fully stored in memory.</p>
+        </article>
 
-        <div class="card">
-            <h3>Neuro-GEMA: A Grammar-based Evolutionary Method to Automatically Design Flexible Convolutional Neural Networks</h3>
-            <p><strong>Period:</strong> 2023 - 2025</p>
-            <p><strong>Status:</strong> Completed</p>
-            <p><strong>Funding:</strong> São Paulo Research Foundation (FAPESP)</p>
-            <p><strong>Role:</strong> Coordinator</p>
-            <p>
-                Neuro-GEMA explored grammar-based multi-objective evolutionary algorithms for Neural
-                Architecture Search (NAS), with emphasis on the automatic design of convolutional neural
-                networks. By combining grammatical representations and multi-objective optimization, the
-                project sought models with strong predictive performance and favorable trade-offs in metrics
-                such as model size. The resulting architectures were intended for smart-city applications,
-                including urban monitoring and public-health related detection tasks.
-            </p>
-        </div>
+        <article class="card">
+          <h3>National Institute of Artificial Intelligence for Social Good (IAPROBEM)</h3>
+          <p><strong>Period:</strong> 2025–Present</p>
+          <p><strong>Status:</strong> Ongoing</p>
+          <p><strong>Role:</strong> Team member</p>
+          <p><strong>Summary:</strong> This initiative investigates how Artificial Intelligence can be used to address major national challenges with social impact. The project focuses on AI methods and tools for disaster prevention, environmental protection, health, citizenship, human rights, and social well-being, bringing together researchers from multiple regions of Brazil and from different disciplinary backgrounds.</p>
+        </article>
 
-        <div class="card">
-            <h3>Automatic Construction and Selection of Machine Learning Algorithms</h3>
-            <p><strong>Period:</strong> 2022 - 2024</p>
-            <p><strong>Status:</strong> Completed</p>
-            <p><strong>Funding:</strong> São Paulo Research Foundation (FAPESP) and FACEPE</p>
-            <p><strong>Role:</strong> Coordinator</p>
-            <p>
-                This project advanced research on meta-learning and automated algorithm design for
-                classification. It investigated search-based approaches for automatically building learning
-                algorithms, including decision trees, rule induction systems, Bayesian networks, deep neural
-                networks, similarity functions for semi-supervised learning, classifier ensembles, and
-                multi-target predictors. It also examined comparative aspects between algorithm selection,
-                configuration, and automatic construction approaches.
-            </p>
-        </div>
+        <article class="card">
+          <h3>Neuro-GEMA: A Grammar-based Evolutionary Method to Automatically Design Flexible Convolutional Neural Networks</h3>
+          <p><strong>Period:</strong> 2023–2025</p>
+          <p><strong>Status:</strong> Completed</p>
+          <p><strong>Funding agency:</strong> FAPESP</p>
+          <p><strong>Role:</strong> Coordinator</p>
+          <p><strong>Summary:</strong> Neuro-GEMA explored grammar-based multi-objective evolutionary algorithms for Neural Architecture Search, with emphasis on the automatic design of convolutional neural networks. By combining grammatical representations and multi-objective optimization, the project sought architectures with strong predictive performance and favorable trade-offs in metrics such as model size, targeting applications related to smart cities and urban monitoring.</p>
+        </article>
 
-        <div class="card">
-            <h3>IARA - Artificial Intelligence Recreating Environments</h3>
-            <p><strong>Period:</strong> 2022 - Present</p>
-            <p><strong>Status:</strong> Ongoing</p>
-            <p><strong>Funding:</strong> São Paulo Research Foundation (FAPESP)</p>
-            <p><strong>Role:</strong> Team Member</p>
-            <p>
-                IARA is an Applied Research Center in Artificial Intelligence organized as a national network
-                of research nodes across Brazil. It brings together researchers and partner institutions to
-                advance AI for smart cities, with activities spanning cybersecurity, education, infrastructure,
-                environment, and health. The initiative emphasizes technology transfer, education, outreach,
-                and the ethical, transparent, and effective use of AI in urban environments.
-            </p>
-        </div>
+        <article class="card">
+          <h3>Automatic Construction and Selection of Machine Learning Algorithms</h3>
+          <p><strong>Period:</strong> 2022–2024</p>
+          <p><strong>Status:</strong> Completed</p>
+          <p><strong>Funding agency:</strong> FAPESP and FACEPE</p>
+          <p><strong>Role:</strong> Coordinator</p>
+          <p><strong>Summary:</strong> This project advanced research on meta-learning and automated algorithm design for classification. It investigated search-based approaches for automatically building learning algorithms, including decision trees, rule induction systems, Bayesian networks, deep neural networks, similarity functions for semi-supervised learning, classifier ensembles, and multi-target predictors, while also examining the relationship between algorithm selection, configuration, and construction.</p>
+        </article>
 
-        <div class="card">
-            <h3>National Institute of Artificial Intelligence (IAIA)</h3>
-            <p><strong>Period:</strong> 2022 - Present</p>
-            <p><strong>Status:</strong> Ongoing</p>
-            <p><strong>Funding:</strong> CNPq INCT Program</p>
-            <p><strong>Role:</strong> Team Member</p>
-            <p>
-                This National Institute of Science and Technology in Artificial Intelligence was created to
-                foster collaborative research, innovation, and human resource development in AI in Brazil.
-                The initiative aims to strengthen the international visibility of Brazilian AI research while
-                promoting advanced training in both foundational and applied Artificial Intelligence.
-            </p>
-        </div>
+        <article class="card">
+          <h3>IARA — Artificial Intelligence Recreating Environments</h3>
+          <p><strong>Period:</strong> 2022–Present</p>
+          <p><strong>Status:</strong> Ongoing</p>
+          <p><strong>Funding agency:</strong> FAPESP</p>
+          <p><strong>Role:</strong> Team member</p>
+          <p><strong>Summary:</strong> IARA is an Applied Research Center in Artificial Intelligence organized as a national network of research nodes across Brazil. The initiative brings together researchers and partner institutions to advance AI for smart cities in areas such as cybersecurity, education, infrastructure, environment, and health, with strong emphasis on technology transfer, education, outreach, and the ethical and effective use of AI.</p>
+        </article>
+
+        <article class="card">
+          <h3>National Institute of Artificial Intelligence (IAIA)</h3>
+          <p><strong>Period:</strong> 2022–Present</p>
+          <p><strong>Status:</strong> Ongoing</p>
+          <p><strong>Funding agency:</strong> CNPq INCT Program</p>
+          <p><strong>Role:</strong> Team member</p>
+          <p><strong>Summary:</strong> This National Institute of Science and Technology in Artificial Intelligence was created to foster collaborative research, innovation, and human resource development in AI in Brazil. The initiative aims to strengthen the international visibility of Brazilian AI research while promoting advanced training in both foundational and applied Artificial Intelligence.</p>
+        </article>
+
+      </div>
     </section>
-</main>
 
-<footer class="footer">
-    <div class="container">
-        <p>GPAM — Machine Learning Research Group | UNIFESP</p>
+    <section class="section">
+      <div class="container grid grid-2">
+        <div class="card">
+          <div class="kicker">Project profile</div>
+          <h2>What these projects highlight</h2>
+          <ul class="highlight-list">
+            <li>Strong activity in Automated Machine Learning and adaptive learning systems</li>
+            <li>Participation in large collaborative AI networks in Brazil</li>
+            <li>Research funded by agencies such as FAPESP, FACEPE, and CNPq</li>
+            <li>Integration of foundational methods and socially impactful applications</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="kicker">Institutional positioning</div>
+          <h2>Scientific breadth and collaboration</h2>
+          <p>
+            Together, these projects show GPAM’s combination of methodological research,
+            interdisciplinary collaboration, and participation in strategic national initiatives.
+            They also reflect the group’s interest in both core machine learning methods and
+            impactful real-world applications.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>GPAM</h2>
+        <p>Research group dedicated to Machine Learning, Automated Machine Learning, Data Science, graph-based learning, and adaptive intelligent systems.</p>
+        <p class="small">This starter website was structured for GitHub Pages and can be updated by editing the HTML files directly.</p>
+      </div>
+      <div>
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="people.html">People</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="publications.html">Publications</a></li>
+        </ul>
+      </div>
     </div>
-</footer>
-
+  </footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
