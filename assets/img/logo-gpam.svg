@@ -1,14 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
-<rect width="512" height="512" rx="120" fill="url(#bg)"/>
-<path d="M124 356L204 266L274 316L382 174" stroke="white" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="124" cy="356" r="28" fill="#D6E4FF" stroke="white" stroke-width="14"/>
-<circle cx="204" cy="266" r="28" fill="#D6E4FF" stroke="white" stroke-width="14"/>
-<circle cx="274" cy="316" r="28" fill="#D6E4FF" stroke="white" stroke-width="14"/>
-<circle cx="382" cy="174" r="28" fill="#D6E4FF" stroke="white" stroke-width="14"/>
-<defs>
-<linearGradient id="bg" x1="86" y1="68" x2="420" y2="454" gradientUnits="userSpaceOnUse">
-<stop stop-color="#123C7A"/>
-<stop offset="1" stop-color="#2B69C9"/>
-</linearGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gpamHeadGradient" x1="120" y1="300" x2="420" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08246B"/>
+      <stop offset="55%" stop-color="#0F5FB7"/>
+      <stop offset="100%" stop-color="#1DB4E8"/>
+    </linearGradient>
+    <style>
+      .brand-text { font-family: Inter, Arial, Helvetica, sans-serif; font-weight: 800; letter-spacing: 1px; fill: #0A2F7C; }
+      .net-line { stroke: #FFFFFF; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; opacity: 0.98; }
+      .net-node { fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <!-- Head silhouette -->
+  <path d="
+    M170 304
+    L170 220
+    C170 195 163 180 146 157
+    C126 129 118 100 126 72
+    C134 43 154 22 184 11
+    C217 -1 258 2 293 22
+    C331 44 356 79 368 121
+    C377 153 378 184 368 212
+    C364 223 368 232 377 244
+    L408 288
+    C412 294 412 302 408 308
+    C403 315 396 318 387 318
+    L340 318
+    C332 318 326 324 326 332
+    L326 349
+    C326 355 321 360 315 360
+    L274 360
+    C266 360 258 358 251 353
+    C237 344 222 340 204 340
+    L181 340
+    C175 340 170 335 170 329
+    L170 304
+    Z" transform="translate(20,0)" fill="url(#gpamHeadGradient)"/>
+
+  <!-- Network inside head -->
+  <g transform="translate(20,0)">
+    <line class="net-line" x1="204" y1="92" x2="248" y2="48"/>
+    <line class="net-line" x1="248" y1="48" x2="332" y2="48"/>
+    <line class="net-line" x1="332" y1="48" x2="340" y2="121"/>
+    <line class="net-line" x1="204" y1="92" x2="204" y2="170"/>
+    <line class="net-line" x1="204" y1="92" x2="284" y2="122"/>
+    <line class="net-line" x1="204" y1="170" x2="284" y2="122"/>
+    <line class="net-line" x1="204" y1="170" x2="250" y2="228"/>
+    <line class="net-line" x1="284" y1="122" x2="340" y2="121"/>
+    <line class="net-line" x1="284" y1="122" x2="327" y2="169"/>
+    <line class="net-line" x1="284" y1="122" x2="250" y2="228"/>
+    <line class="net-line" x1="250" y1="228" x2="327" y2="169"/>
+    <line class="net-line" x1="250" y1="228" x2="255" y2="279"/>
+    <line class="net-line" x1="327" y1="169" x2="389" y2="165"/>
+    <line class="net-line" x1="327" y1="169" x2="363" y2="225"/>
+    <line class="net-line" x1="250" y1="228" x2="314" y2="281"/>
+    <line class="net-line" x1="255" y1="279" x2="255" y2="322"/>
+    <line class="net-line" x1="248" y1="48" x2="284" y2="72"/>
+    <line class="net-line" x1="284" y1="72" x2="340" y2="121"/>
+    <line class="net-line" x1="340" y1="121" x2="389" y2="118"/>
+
+    <circle class="net-node" cx="204" cy="92" r="14"/>
+    <circle class="net-node" cx="248" cy="48" r="14"/>
+    <circle class="net-node" cx="332" cy="48" r="13"/>
+    <circle class="net-node" cx="284" cy="72" r="10"/>
+    <circle class="net-node" cx="340" cy="121" r="13"/>
+    <circle class="net-node" cx="284" cy="122" r="18"/>
+    <circle class="net-node" cx="204" cy="170" r="18"/>
+    <circle class="net-node" cx="327" cy="169" r="14"/>
+    <circle class="net-node" cx="250" cy="228" r="16"/>
+    <circle class="net-node" cx="255" cy="279" r="11"/>
+    <circle class="net-node" cx="255" cy="322" r="11"/>
+    <circle class="net-node" cx="314" cy="281" r="13"/>
+    <circle class="net-node" cx="363" cy="225" r="14"/>
+    <circle class="net-node" cx="389" cy="165" r="11"/>
+    <circle class="net-node" cx="389" cy="118" r="11"/>
+  </g>
+
+  <!-- GPAM text -->
+  <text x="470" y="238" class="brand-text" font-size="128">GPAM</text>
 </svg>
