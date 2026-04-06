@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+<rect width="1200" height="900" rx="56" fill="#F6FAFF"/>
+<path d="M138 682L300 496L438 574L714 256L960 346" stroke="#123C7A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="138" cy="682" r="26" fill="#2B69C9" opacity=".18" stroke="#123C7A" stroke-width="12"/>
+<circle cx="300" cy="496" r="26" fill="#2B69C9" opacity=".18" stroke="#123C7A" stroke-width="12"/>
+<circle cx="438" cy="574" r="26" fill="#2B69C9" opacity=".18" stroke="#123C7A" stroke-width="12"/>
+<circle cx="714" cy="256" r="26" fill="#2B69C9" opacity=".18" stroke="#123C7A" stroke-width="12"/>
+<circle cx="960" cy="346" r="26" fill="#2B69C9" opacity=".18" stroke="#123C7A" stroke-width="12"/>
+<rect x="120" y="118" width="290" height="160" rx="28" fill="white" stroke="#D9E2F0"/>
+<text x="160" y="180" fill="#123C7A" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">GPAM</text>
+<text x="160" y="226" fill="#5B6472" font-family="Inter, Arial, sans-serif" font-size="24">Machine Learning Research Group</text>
+<rect x="760" y="556" width="258" height="146" rx="28" fill="white" stroke="#D9E2F0"/>
+<text x="800" y="614" fill="#123C7A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Research</text>
+<text x="800" y="654" fill="#5B6472" font-family="Inter, Arial, sans-serif" font-size="22">AutoML • Graph Learning</text>
+<text x="800" y="688" fill="#5B6472" font-family="Inter, Arial, sans-serif" font-size="22">Evolutionary Computation</text>
+</svg>

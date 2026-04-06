@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" fill="none">
+<rect width="400" height="400" rx="80" fill="#F1F5FB"/>
+<circle cx="200" cy="150" r="76" fill="#DCE9FF"/>
+<path d="M100 324C118 269.333 156 242 200 242C244 242 282 269.333 300 324" fill="#DCE9FF"/>
+<text x="200" y="164" fill="#123C7A" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800" text-anchor="middle">MSc</text>
+</svg>
