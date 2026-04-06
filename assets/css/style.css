@@ -46,7 +46,9 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
 }
 .brand-mark {
-  width: 44px; height: 44px; border-radius: 14px; box-shadow: var(--shadow);
+  height: 80px;
+  width: auto;
+  object-fit: cover;
 }
 .brand-text small { display: block; color: var(--muted); font-weight: 600; font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; }
 .brand-text span { display: block; font-size: 1.05rem; }
